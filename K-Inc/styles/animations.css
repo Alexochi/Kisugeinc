@@ -1,0 +1,196 @@
+/*== Animation Css
+==================*/
+
+/*== greetings h2
+==================*/
+
+@keyframes tracking-in-expand {
+    0% {
+        transform: translate(-60px, 0px);
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+    
+}
+
+
+/*== greetings h3
+==================*/
+@keyframes appear {
+    0% {
+      transform: translate(0px, 50px);
+      opacity: 0;
+  }
+  40% {
+      opacity: 0.6;
+  }
+  100% {
+      opacity: 1;
+/*         transform: translate(0px, 0px); */
+  }
+  
+}
+
+
+/*== rev-block
+==========================*/
+
+/* .rev-block #fc:after, */
+.rev-block #sc:after,
+.rev-block #tc:after,
+.rev-block #foc:after,
+.rev-block #fic:after {
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: red;
+    animation: rev-block1 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    animation-delay: 6s;
+     
+}
+.rev-block #fc:after {
+    animation-delay: 6s;
+}
+.rev-block #sc:after {
+    animation-delay: 7s;
+}
+.rev-block #tc:after {
+    animation-delay: 8s;
+}
+.rev-block #foc:after {
+    animation-delay: 9s;
+}
+.rev-block #fic:after {
+    animation-delay: 10s;
+}
+
+
+.rev-block #fc {
+     animation-delay: 6.5s;
+}
+.rev-block #sc {
+     animation-delay: 7.5s;
+}
+.rev-block #tc {
+     animation-delay: 8.5s;
+}
+.rev-block #foc {
+     animation-delay: 9.5s;
+}
+.rev-block #fic {
+     animation-delay: 10.5s;
+}
+
+@keyframes rev-block1 {
+    0% {
+        left: 0;
+        width: 0%;
+    }
+    50% {
+        left: 0;
+        width: 100%;
+    }
+    100% {
+        left: 100%;
+        width: 0%;
+        
+    }
+}
+
+/*== animation appear text
+==========================*/
+@keyframes appear-text {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        left: 0;
+        
+    }
+}
+
+
+/*== animation down arrows
+==========================*/
+.down-arrows #Path_5 {
+    transition: ease;
+    animation: 2s fading 1s infinite;
+}
+@keyframes fading {
+      0% {
+       opacity: 0%;
+    }
+    100% {
+       fill: #ffff; 
+       opacity: 90%;
+       stroke-width: 0.5px;
+       stroke: #fff;
+        
+    }
+
+}
+
+.down-arrows #Path_4 {
+    transition: ease;
+    animation: 1.5s fading1 1s infinite;
+}
+@keyframes fading1 {
+    0% {
+    opacity: 0%;
+    }
+    100% {
+       fill: #ffff;
+       opacity: 50%; 
+       stroke-width: 0.5px;
+       stroke: #fff; 
+    }
+}
+
+
+.down-arrows #Path_3 {
+    transition: ease;
+    animation: fading2 1s infinite;
+}
+@keyframes fading2 {
+    0% {
+    opacity: 0%;
+    }
+    100% {
+       opacity: 20%; 
+       fill: #ffff; 
+       stroke-width: 0.5px;
+       stroke: #fff; 
+    }
+}
+
+.down-arrows svg{
+    visibility:  hidden;
+    transition: ease;
+    animation: dropping 1s infinite 11.5s;
+    
+    
+}
+@keyframes dropping {
+     0% {
+    visibility: visible;     
+    top: 0px;     
+    transform: translate(0, -20px);
+         
+    }
+    100% {
+    top: 0;
+    transform: translate(0, 18px);
+    }
+}
+

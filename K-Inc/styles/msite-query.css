@@ -1,0 +1,1593 @@
+/*==Media query 1st 100vh
+=================================*/
+
+/*== Laptops
+=================================*/
+
+@media only screen and (max-width: 1440px) {
+    .text {
+        font-size: 40px; 
+        margin: 28px 0;
+        text-align: center;
+    }
+    .test {
+        width: 45%;
+        background: rgb(255, 1, 1);
+    }
+    .view-port h3 {
+    font-size: 45px;
+    letter-spacing: 1px;
+    }
+
+}
+/* ==== my laptop screen
+=================================  */
+
+@media only screen and (min-width: 1236px)  {
+    .box #tech-skill {
+        margin-top: 25px;
+        height: 120px;
+        width: 500px;
+/*         font-family: Times !important; */
+    }
+    .box #tech-skill span {
+        font-size: 1.5rem;
+    }
+    .box1 #about-me {
+        margin: 150px 4% auto !important;
+        width: 100%;
+        font-size: 1.5rem !important;
+    }
+    .yearsOf-exp,
+    .active-proj{
+        height: 9.5%;
+        width: 250px;
+        margin: 22% 15%;
+        padding-top: 6% !important;
+        font-size: 2.3rem;
+    }
+    .box1:nth-child(2) h2 {
+        margin-top: 20px;
+        margin-left: 25px;
+        width: 30%;
+        height: 60px;
+        font-size: 2rem;
+    }
+    .skill-box {
+        margin-top: 7%;
+        height: 400px;
+    }
+    .slide:nth-child(1) h3,
+    .slide:nth-child(2) h3,
+    .slide:nth-child(3) h3,
+    .slide:nth-child(4) h3,
+    .slide:nth-child(5) h3,
+    .slide:nth-child(6) h3,
+    .slide:nth-child(7) h3 {
+        margin-top: 4% !important;
+        font-size: 2.5rem !important;
+    }
+    .slide:nth-child(1) #adobexd,
+    .slide:nth-child(2) #adobe-ps,
+    .slide:nth-child(3) #sass,
+    .slide:nth-child(4) #jquery,
+    .slide:nth-child(5) #python,
+    .slide:nth-child(6) #html,
+    .slide:nth-child(7) #javascript {
+        margin-top: 5.5% !important;
+        margin-left: 48% !important;
+        transform: scale(2);
+    }
+    .slide h2 {
+        position: absolute !important;
+        width: 70% !important;
+        height: 55% !important;
+        margin-top: 12% !important;
+        margin-left: 16% !important;
+        letter-spacing: 2rem !important;
+        font-size: 5.5rem !important;
+        font-family: Impact !important;
+        text-align: center !important;
+    }
+    .slide:nth-child(1) p,
+    .slide:nth-child(2) p,
+    .slide:nth-child(3) p,
+    .slide:nth-child(4) p,
+    .slide:nth-child(5) p,
+    .slide:nth-child(6) p,
+    .slide:nth-child(7) p {
+        margin-top: 5.1rem !important;
+        font-size: 1.3rem !important;
+    }
+    .slide:nth-child(1) p {
+        margin-top: 13rem !important;
+    }
+    .listOf-projects,
+    .listOf-technologies {
+        position: absolute;
+        width: inherit;
+        height: 2%;
+        margin-top: 43%;
+        background: #000;
+        cursor: pointer;
+    }
+    .listOf-technologies {
+        margin-top: 37%;
+        background: red;
+    }
+    .listOf-projects h2,
+    .listOf-technologies h2{
+        position: absolute;
+        left: 7%;
+        margin-top: 9px !important;
+
+    }
+    .project-gallery {
+        margin-top: 49%;
+        width: 100%;
+        height: 450px;
+    }
+    .proj-one {
+        position: relative;
+        width: 320px;
+        height: 48%;
+        margin: 5px;
+        margin: 5px 8px;
+    }
+    .project-gallery .proj-one .content h2 {
+        height: 38%;
+        width: 90%;
+        margin-top: 35px;
+        margin-left: 5%;
+        font-size: 1.7rem;
+    }
+    .project-gallery .proj-one .content p {
+        padding-top: 10px;
+        font-size: 1rem;
+        margin-top: 65px;
+        transform: translateY(70px);
+    }
+    .process1 {
+        position: absolute;
+        width: 50%;
+        height: 2%;
+        margin-top: 450px;
+        border-bottom: 2.5px solid #fff;
+
+    }
+    .process1:nth-child(2) {
+        margin-top: 550px;
+
+    }
+    .process1:nth-child(3) {
+        margin-top: 450px;
+        right: 0;
+
+    }
+
+    .process1:nth-child(4) {
+        margin-top: 550px;
+        right: 0;
+    }
+    .process1:nth-child(5) {
+        margin-top: 550px;
+        width: 29%;
+        right: 0;
+
+    }
+    .title-box {
+        margin-top: 2%;
+        height: 120px;
+
+    }
+    .title-box h2 {
+        margin-top: 10px;
+        width: 30%;
+        height: 50px;
+        font-size: 2rem;
+    }
+    .title-box  p {
+        margin: 5% 4% auto;
+        font-size: 1.5rem;
+        height: 50px;
+    }
+    .img-box-1 {
+        margin-top:150px;
+        height: 400px;
+        background: url(../images/earth.jpg) 50% 50%;
+        background-size:  cover;
+    }
+    .img-box-1 .glow {
+        display: flex;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        margin-left: 57%;
+        margin-top: 145px;
+
+    }
+    .img-box-1 .glow span {
+        position: absolute;
+        background: red;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        transform: translate(0%,0%);
+    
+    }
+    .img-box-1 .glow span:nth-child(3) {
+        transform: translate(0%, 0%);
+    }
+    .img-box-1 .glow span:nth-child(2) {
+        transform: translate(0%,0%);
+    }
+    .img-box-1 .glow span:nth-child(1) {
+        transform: translate(0%, 0%);
+    }
+    .projects-count {
+        height: 150px;
+        margin-top: 545px;
+        display: flex;
+        flex-direction:  row;
+    }
+    .projects-count .count h2 {
+        height: 70%;
+        width: 50%;
+        font-size: 5.3rem;
+        margin-top: 0;
+        
+    }
+    .projects-count .count p {
+        bottom: 0;
+        font-size: 1.5rem;
+        margin-left: 40%;
+        margin-bottom: 10px;
+
+    }
+    .country-box {
+        width: 25%;
+        margin-top: 415px;
+        margin-right: 100px;
+        transform: skew(-30deg);
+    }
+    .country-box:before {
+        width: 25px;
+        margin-left: -12%;
+
+
+    }
+    .country-box:after {
+        height: 115px; 
+        margin-top: 20%;
+        margin-right: -13%;
+    }
+    .location {
+        width: 25%;
+        height: 130px;
+        margin-top: 415px;
+        margin-right: 50px;
+    }
+    .location h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-left: 10%;
+        margin-top: 1%;
+    }
+    .location #counties1 {
+        top: 35px;
+        font-size: 1.3rem;
+    }
+    .location #counties2 {
+        top: 30px;
+        font-size: 1.3rem;
+    }
+    .location p {
+        top: 30px;
+        font-size: 1.3rem;
+        margin-left: 55%;
+    }
+    .location #first {
+        margin-top: 6%;
+        margin-left: 63%;
+
+    }
+    .contact-box {
+        margin-top: 100px;
+        height: 350px;
+    }
+    .contact-box h2 {
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    .phone-no #whatsApp,
+    .mail #gmail{
+        margin-top: 25px;
+        transform: scale(1.2);
+    }
+    .socials #instagram {
+        transform: scale(1.2);
+        left: 30%;
+        bottom: 25px;
+    }
+    .socials #linkedIn {
+        transform: scale(1.2);
+        left: 45%;
+        bottom: 25px;
+    } 
+    .socials #telegram {
+        transform: scale(1.2);
+        bottom: 25px;
+        left: 15%;
+    }
+    .phone-no p,
+    .mail p {
+        margin-top: 20px;
+        margin-left: 13%;
+        font-size: 1.8rem;
+    }
+    .footer .up-arrow {
+        margin-left: 90%; 
+        margin-top: 3rem;
+    }
+    .footer #d-slash {
+        margin-left: 80%;
+        margin-top: -3%;
+    }
+    .footer h3 {
+        margin-top: 20px;
+        margin-left: 65px;
+    }
+    #copy-r {
+        margin: 50px 70px auto;
+    }
+    .footer h4 {
+        margin: -30px 120px auto;
+        font-family: Agency FB;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: #fff;
+        opacity: 50%;
+    }
+
+}
+
+/* ==== my laptop screen
+=================================  */
+
+@media only screen and (min-width: 1366px)  {
+    .box #tech-skill {
+        margin-top: 25px;
+        height: 120px;
+        width: 90%;
+        font-family: Times !important;
+    }
+    .box #tech-skill span {
+        font-size: 2.5rem;
+    }
+    .box1 #about-me {
+        margin: 150px 4% auto !important;
+        width: 100%;
+        font-size: 1.5rem !important;
+    }
+    .yearsOf-exp,
+    .active-proj{
+        height: 9.5%;
+        width: 250px;
+        margin: 22% 15%;
+        padding-top: 6% !important;
+        font-size: 2.3rem;
+    }
+    .box1:nth-child(2) h2 {
+        margin-top: 20px;
+        margin-left: 25px;
+        width: 30%;
+        height: 60px;
+        font-size: 2rem;
+    }
+    .skill-box {
+        margin-top: 7%;
+        height: 400px;
+    }
+    .slide:nth-child(1) h3,
+    .slide:nth-child(2) h3,
+    .slide:nth-child(3) h3,
+    .slide:nth-child(4) h3,
+    .slide:nth-child(5) h3,
+    .slide:nth-child(6) h3,
+    .slide:nth-child(7) h3 {
+        margin-top: 4% !important;
+        font-size: 2.5rem !important;
+    }
+    .slide:nth-child(1) #adobexd,
+    .slide:nth-child(2) #adobe-ps,
+    .slide:nth-child(3) #sass,
+    .slide:nth-child(4) #jquery,
+    .slide:nth-child(5) #python,
+    .slide:nth-child(6) #html,
+    .slide:nth-child(7) #javascript {
+        margin-top: 5.5% !important;
+        margin-left: 48% !important;
+        transform: scale(2);
+    }
+    .slide h2 {
+        position: absolute !important;
+        width: 70% !important;
+        height: 55% !important;
+        margin-top: 12% !important;
+        margin-left: 16% !important;
+        letter-spacing: 2rem !important;
+        font-size: 5.5rem !important;
+        font-family: Impact !important;
+        text-align: center !important;
+    }
+    .slide:nth-child(1) p,
+    .slide:nth-child(2) p,
+    .slide:nth-child(3) p,
+    .slide:nth-child(4) p,
+    .slide:nth-child(5) p,
+    .slide:nth-child(6) p,
+    .slide:nth-child(7) p {
+        margin-top: 5.1rem !important;
+        font-size: 1.3rem !important;
+    }
+    .slide:nth-child(1) p {
+        margin-top: 13rem !important;
+    }
+    .listOf-projects,
+    .listOf-technologies {
+        position: absolute;
+        width: inherit;
+        height: 2%;
+        margin-top: 43%;
+        background: #000;
+        cursor: pointer;
+    }
+    .listOf-technologies {
+        margin-top: 37%;
+        background: red;
+    }
+    .listOf-projects h2,
+    .listOf-technologies h2{
+        position: absolute;
+        left: 7%;
+        margin-top: 9px !important;
+
+    }
+    .project-gallery {
+        margin-top: 48.2% !important;
+        width: 100%;
+        height: 450px !important;
+    }
+    .proj-one {
+        position: relative;
+        width: 320px;
+        height: 47% !important;
+        margin: 5px;
+        margin: 5px 8px;
+    }
+    .project-gallery .proj-one .content h2 {
+        height: 38%;
+        width: 90%;
+        margin-top: 35px;
+        margin-left: 5%;
+        font-size: 1.7rem;
+    }
+    .project-gallery .proj-one .content p {
+        padding-top: 10px;
+        font-size: 1rem;
+        margin-top: 65px;
+        transform: translateY(70px);
+    }
+    .process1 {
+        position: absolute;
+        width: 50%;
+        height: 2%;
+        margin-top: 450px;
+        border-bottom: 2.5px solid #fff;
+
+    }
+    .process1:nth-child(2) {
+        margin-top: 550px;
+
+    }
+    .process1:nth-child(3) {
+        margin-top: 450px;
+        right: 0;
+
+    }
+
+    .process1:nth-child(4) {
+        margin-top: 550px;
+        right: 0;
+    }
+    .process1:nth-child(5) {
+        margin-top: 550px;
+        width: 29%;
+        right: 0;
+
+    }
+    .title-box {
+        margin-top: 2%;
+        height: 120px;
+
+    }
+    .title-box h2 {
+        margin-top: 10px;
+        width: 30%;
+        height: 50px;
+        font-size: 2rem;
+    }
+    .title-box  p {
+        margin: 5% 4% auto;
+        font-size: 1.5rem;
+        height: 50px;
+    }
+    .img-box-1 {
+        margin-top:150px;
+        height: 400px;
+        background: url(../images/earth.jpg) 50% 50%;
+        background-size:  cover;
+    }
+    .img-box-1 .glow {
+        display: flex;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        margin-left: 57%;
+        margin-top: 145px;
+
+    }
+    .img-box-1 .glow span {
+        position: absolute;
+        background: red;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        transform: translate(0%,0%);
+    
+    }
+    .img-box-1 .glow span:nth-child(3) {
+        transform: translate(0%, 0%);
+    }
+    .img-box-1 .glow span:nth-child(2) {
+        transform: translate(0%,0%);
+    }
+    .img-box-1 .glow span:nth-child(1) {
+        transform: translate(0%, 0%);
+    }
+    .projects-count {
+        height: 150px;
+        margin-top: 545px;
+        display: flex;
+        flex-direction:  row;
+    }
+    .projects-count .count h2 {
+        height: 70%;
+        width: 50%;
+        font-size: 5.3rem;
+        margin-top: 0;
+        
+    }
+    .projects-count .count p {
+        bottom: 0;
+        font-size: 1.5rem;
+        margin-left: 40%;
+        margin-bottom: 10px;
+
+    }
+    .country-box {
+        width: 25%;
+        margin-top: 415px;
+        margin-right: 100px;
+        transform: skew(-30deg);
+    }
+    .country-box:before {
+        width: 25px;
+        margin-left: -12%;
+
+
+    }
+    .country-box:after {
+        height: 115px; 
+        margin-top: 20%;
+        margin-right: -13%;
+    }
+    .location {
+        width: 25%;
+        height: 130px;
+        margin-top: 415px;
+        margin-right: 50px;
+    }
+    .location h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-left: 10%;
+        margin-top: 1%;
+    }
+    .location #counties1 {
+        top: 35px;
+        font-size: 1.3rem;
+    }
+    .location #counties2 {
+        top: 30px;
+        font-size: 1.3rem;
+    }
+    .location p {
+        top: 30px;
+        font-size: 1.3rem;
+        margin-left: 55%;
+    }
+    .location #first {
+        margin-top: 6%;
+        margin-left: 63%;
+
+    }
+    .contact-box {
+        margin-top: 100px;
+        height: 350px;
+    }
+    .contact-box h2 {
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    .phone-no #whatsApp,
+    .mail #gmail{
+        margin-top: 25px;
+        transform: scale(1.2);
+    }
+    .socials #instagram {
+        transform: scale(1.2);
+        left: 30%;
+        bottom: 25px;
+    }
+    .socials #linkedIn {
+        transform: scale(1.2);
+        left: 45%;
+        bottom: 25px;
+    } 
+    .socials #telegram {
+        transform: scale(1.2);
+        bottom: 25px;
+        left: 15%;
+    }
+    .phone-no p,
+    .mail p {
+        margin-top: 20px;
+        margin-left: 13%;
+        font-size: 1.8rem;
+        color: black;
+
+    }
+    .footer .up-arrow {
+        margin-left: 90%; 
+        margin-top: 3rem;
+    }
+    .footer #d-slash {
+        margin-left: 80%;
+        margin-top: -3%;
+    }
+    .footer h3 {
+        margin-top: 20px;
+        margin-left: 65px;
+    }
+    #copy-r {
+        margin: 50px 70px auto;
+    }
+    .footer h4 {
+        margin: -30px 120px auto;
+        font-family: Agency FB;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: #fff;
+        opacity: 50%;
+    }
+
+}
+
+
+/*== My Laptop 14inch screen
+=================================*/
+
+@media only screen and (max-width: 1366px) {
+    .text {
+        font-size: 26px; 
+        margin: 30px 0;
+        text-align: center;
+    }
+    .test {
+        width: 45%;
+        background: rgb(255, 1, 1);
+    }
+    .view-port h3 {
+    font-size: 25px;
+    letter-spacing: 1px;
+        
+    }
+    .duities {
+    top: 31%;
+    left: 3.5%;
+    width: 28%;
+    height: 55% !important;
+    }
+    
+    .down-arrows {
+    height: 100px;
+    width: 65px;
+    bottom: 20px;
+    left: 45%;
+    }
+    .down-arrows svg {
+    position: absolute;   
+    top: -100px;    
+    width: 100%;
+    height: 100%;
+    }
+} 
+
+
+
+
+/*== Iphone 11 Pro max , Xmax 1242 x 2688
+==============================*/
+@media only screen and (max-width: 1242px) {
+    .text {
+        font-size: 65px; 
+        margin: 75px 0;
+        text-align: center;
+    }
+    .test {
+        width: 60%;
+        background: rgb(255, 1, 1);
+    }
+    .view-port h3 {
+    font-size: 60px;
+    letter-spacing: 1px;
+    }
+
+} 
+/*== Samsung Galaxy A50/51 Xiomi Redmi Note 8/9
+==============================*/
+@media only screen and (max-width: 1080px) {
+    .text {
+        font-size: 95px; 
+        margin: 95px 0;
+        text-align: center;
+    }
+    .test {
+        width: 60%;
+        background: rgb(255, 1, 1);
+    }
+    .view-port h3 {
+        font-size: 60px;
+        letter-spacing: 1px;
+    }
+
+    .main-container {
+        background-repeat: repeat-y;  
+        
+    }
+    .view-port #kinc {
+        margin: 45px;
+        width: 50px;
+        height: auto;
+    }
+    
+    .view-port svg text {
+        font-size: 35px;
+    }
+
+    .view-port #msgbox {
+        margin: 53px;
+        transform: scale(2);
+
+    }
+    .view-port #hambager {
+        margin: 53px;
+        transform: scale(2);
+    }
+        
+    .view-port .greetings {
+    top: 25%;
+    left: 20%;
+    width: 45%;
+    }
+    .view-port .greetings h2 {
+     font-size: 75px;
+    }
+    .view-port .greetings h3 {
+    top: -89px;
+    left: 185px;
+    font-size: 67px;
+    } 
+    .duities {
+    top: 33%;
+    left: 3.5%;
+    width: 28%;
+    height: 25%;
+    }
+    .duities ul li {
+    font-size: 75px;
+    letter-spacing: 3px;
+    left: -150px;
+    padding: 0px 10px;
+
+    }
+    
+    .down-arrows {
+    height: 200px;
+    width: 180px;
+    bottom: 20px;
+    left: 45%;
+    overflow: visible;
+    }
+    .down-arrows svg {
+    width: 100%;
+    height: 100%;
+        
+    }
+    .down-arrows #d-arrows path {
+    transform: scale(1);    
+    }
+    
+} 
+
+
+@media only screen and (min-width: 100px) {
+    @keyframes appr {
+    0% {
+        opacity: 0;
+        visibility:  hidden;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+/*         opacity: 0;
+        visibility:  hidden; */
+    }
+}
+}
+
+@media only screen and (max-width: 1024px) {
+    .text {
+        font-size: 45px; 
+        margin: 35px 0;
+        text-align: center;
+    }
+    .test {
+        width: 50%;
+        background: rgb(255, 1, 1);
+    }
+        .view-port #kinc {
+        margin: 30px;
+        width: 250px;
+        height: auto;
+    }
+    
+    .view-port svg text {
+        font-size: 28px;
+    }
+
+    .view-port #msgbox {
+        margin: 42px;
+        transform: scale(1.45);
+
+    }
+    .view-port #hambager {
+        margin: 42px;
+        transform: scale(1.45);
+    }
+
+} 
+
+@media only screen and (min-width: 812px) {
+    .text {
+        font-size: 45px; 
+        margin: 35px 0;
+        text-align: center;
+    }
+    .test {
+        width: 60%;
+        background: rgb(255, 1, 1);
+    }
+    .view-port #kinc {
+        margin: 25px;
+        width: 250px;
+        height: auto;
+       
+    }
+    
+    .view-port svg text {
+        font-size: 25px;
+    }
+
+    .view-port #msgbox {
+        margin: 39px;
+        transform: scale(1.3);
+
+    }
+    .view-port #hambager {
+        margin: 39px;
+        transform: scale(1.3);
+    }
+    .view-port .greetings {
+    width: 45%;
+    }
+    .view-port .greetings h2{
+    font-size: 43px;
+    top: -52px;    
+    left: 125px;
+    }
+    .view-port .greetings h3{
+    font-size: 48px;
+    left: 129px;
+    }
+
+} 
+
+/*== Ipad/ Ipad mini  768 x 1024
+=================================*/
+
+@media only screen and (min-width: 768px) {
+    .text {
+        font-size: 45px; 
+        margin: 40px 0;
+        text-align: center;
+    }
+    .test {
+        width: 65%;
+        background: rgb(255, 1, 1);
+    }
+
+    .view-port .greetings {
+    width: 45%;
+    }
+    .view-port .greetings h3{
+    font-size: 40px;
+    top: -52px;    
+    left: 125px;
+    }
+    .duities {
+    top: 31%;
+    left: 3.5%;
+    width: 35%;
+    height: 35%;
+    }
+     .duities ul li {
+    font-size: 55px;
+    }
+    
+    
+    .down-arrows {
+    height: 115px;
+    width: 75px;
+    bottom: 20px;
+    left: 45%;
+/*     background: red; */
+/*     overflow: visible; */
+    }
+    .down-arrows svg {
+    position: absolute;   
+    top: -100px;    
+    width: 100%;
+    height: 100%;
+/*     background: red; */
+        
+    }
+
+} 
+
+/*== Tecno K9 720 x 1280 / Cammon 11 720 x 1500
+camon 15/12 720 x 1600
+=================================*/
+
+@media only screen and (max-width: 720px) {
+    .text {
+        font-size: 45px; 
+        margin: 45px 0;
+        text-align: center;
+    }
+    .test {
+        width: 65%;
+        background: rgb(255, 1, 1);
+    }
+    .view-port h3 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    }
+    .main-container {
+    background-repeat: no-repeat;  
+        
+    }
+    .view-port #kinc {
+        margin: 30px;
+        width: 250px;
+        height: auto;
+       
+    }
+    
+    .view-port svg text {
+        font-size: 28px;
+    }
+
+    .view-port #msgbox {
+        margin: 42px;
+        transform: scale(1.45);
+
+    }
+    .view-port #hambager {
+        margin: 42px;
+        transform: scale(1.45);
+    }
+    .duities {
+    top: 31%;
+    left: 3.5%;
+    width: 35%;
+    height: 35%;
+    }
+     .duities ul li {
+    font-size: 55px;
+    }
+    .view-port .logo {
+    margin-top: 20px;
+    left: 3%;
+    font-size: 30px;
+    position: fixed;    
+    color: red;    
+    }
+        
+    .view-port .greetings {
+    top: 25%;
+    left: 20%;
+    width: 45%;
+    }
+    .view-port .greetings h2 {
+     font-size: 50px;
+    }
+    .view-port .greetings h3 {
+    top: -60px;
+    left: 135px;
+    font-size: 45px;
+    } 
+    
+    .down-arrows {
+    height: 119px;
+    width: 85px;
+    bottom: 15px;
+    left: 45%;
+    }
+    .down-arrows svg {
+    position: absolute;   
+    top: -119px;    
+    width: 100%;
+    height: 100%;
+    }
+    .box1 span {
+        font-size: 2.8rem;
+    }
+    .box1 #about-me {
+        width: 100%;
+        font-size: 2rem;
+    }
+    .yearsOf-exp h4,
+    .active-proj h4 {
+        font-size: 16rem;
+    }
+    
+    .project-gallery {
+        width: 100%;
+        height: 390px !important;
+    }
+    .proj-one {
+        position: relative;
+/*         height: 48%; */
+    }
+    .proj-one:nth-child(7),
+    .proj-one:nth-child(8){
+        display: none;
+    }
+    .project-gallery .proj-one .content h2 {
+        height: 38%;
+        width: 90%;
+        margin-top: 35px;
+        margin-left: 5%;
+        font-size: 1.7rem;
+    }
+    .project-gallery .proj-one .content p {
+        padding-top: 10px;
+        font-size: 1rem;
+        margin-top: 65px;
+        transform: translateY(70px);
+    }
+
+
+} 
+@media only screen and (max-width: 667px) {
+    .text {
+        font-size: 32px; 
+        margin: 30px 0;
+        text-align: center;
+    }
+    .test {
+        width: 60%;
+        background: rgb(255, 1, 1);
+    }
+    .view-port h3 {
+    font-size: 28px;
+    letter-spacing: 1px;
+    }
+    .main-container {
+        background-repeat: no-repeat;  
+        
+    }
+    .view-port .greetings {
+    top: 25%;
+    left: 20%;
+    width: 48%;
+    }
+
+
+} 
+
+
+/*== Microsoft lumia 640 x 360
+=================================*/
+@media only screen and (max-width: 640px) {
+    .text {
+        font-size: 30px; 
+        margin: 30px 0;
+        text-align: center;
+    }
+    .test {
+        width: 60%;
+        background: rgb(255, 1, 1);
+    }
+    .view-port h3 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    }
+    .main-container {
+        background-repeat: no-repeat;  
+        
+    }
+    
+     .view-port #kinc {
+        margin: 8px;
+        width: 150px;
+        height: auto;
+    }
+    
+    .view-port svg text {
+        font-size: 28px;
+    }
+
+    .view-port #msgbox {
+        margin: 11px;
+        transform: scale(0.9);
+
+    }
+    .view-port #hambager {
+        margin: 11px;
+        transform: scale(0.9);
+    }
+     .view-port .greetings {
+    top: 20%;
+    left: 20%;
+    width: 40%;
+    }
+    .view-port .greetings h2 {
+     font-size: 40px;
+    }
+    .view-port .greetings h3 {
+    top: -48px;
+    left: 105px;
+    font-size: 35px;
+    } 
+    .duities {
+    top: 35%;
+    left: 3.5%;
+    width: 35%;
+    height: 50%;
+    }
+     .duities ul li {
+    font-size: 24px;
+    }
+    .down-arrows {
+    height: 65px;
+    width: 55px;
+    bottom: 10px;
+    left: 45%;
+    }
+    .down-arrows svg {
+    position: absolute;   
+    top: -55px;    
+    width: 90%;
+    height: 60%;
+    }
+
+} 
+
+
+@media only screen and (max-width: 540px) {
+    .text {
+        font-size: 23px; 
+        margin: 35px 0;
+        text-align: center;
+    }
+    .test {
+        width: 58%;
+        background: rgb(255, 1, 1);
+    }
+    .view-port h3 {
+    font-size: 23px;
+    letter-spacing: 1px;
+    }
+     .view-port .greetings {
+    top: 20%;
+    left: 20%;
+    width: 40%;
+    }
+    .view-port .greetings h2 {
+     font-size: 35px;
+    }
+    .view-port .greetings h3 {
+    top: -37px;
+    left: 95px;
+    font-size: 26px;
+    } 
+    /* ======
+    years of experience =========== */
+    
+    .box1 #about-me {
+        margin-top: 200px;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .yearsOf-exp,
+    .active-proj{
+        height: 10.5%;
+        width: 35%;
+        margin: 300px 10px;
+        font-size: 1.7rem;
+        transform: scale(.9);
+
+    }
+    .yearsOf-exp:hover,
+    .active-proj:hover {
+        transform: scale(1.1);
+    }
+    .yearsOf-exp h4,
+    .active-proj h4 {
+        font-size: 13rem;
+    }
+    
+/*     ===== tech skills ====  */
+    
+    
+/*   ======  project-gallery ====== */
+     .project-gallery {
+        width: 100%;
+        height: 350px !important;
+    }
+
+    .proj-one {
+        position: relative;
+/*         height: 48%; */
+    }
+
+    .proj-one:nth-child(7),
+    .proj-one:nth-child(8){
+        display: none;
+    }
+    .project-gallery .proj-one .content h2 {
+        height: 38%;
+        width: 90%;
+        margin-top: 15px;
+        margin-left: 5%;
+        font-size: 1.7rem;
+    }
+    .project-gallery .proj-one .content p {
+        padding-top: 10px;
+        font-size: 1rem;
+        margin-top: 65px;
+        transform: translateY(70px);
+    }
+
+} 
+
+/*== Iphone 6/7/8/ Plus  414 x 736
+=================================*/
+
+@media only screen and (max-width: 414px) {
+    .text {
+        font-size: 19px; 
+        margin: 35px 0;
+        text-align: center;
+    }
+    .test {
+        width: 60%;
+        background: rgb(255, 1, 1);
+    }
+    .view-port h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    }
+    .view-port .greetings {
+    top: 20%;
+    left: 20%;
+    width: 50%;
+    }
+     .duities {
+    top: 35%;
+    left: 3.5%;
+    width: 35%;
+    height: 40%;
+    }
+     .duities ul li {
+    font-size: 30px;
+    }
+
+    .down-arrows svg {
+    position: absolute;   
+    top: -55px;    
+    width: 100%;
+    height: 70%;
+    }
+    
+/* ======
+    years of experience =========== */
+    
+    .box #tech-skill span {
+        position: absolute;
+        transition: 1s ease;
+        transition-duration: 2s;
+    }
+
+    .box #tech-skill span[data-scroll="in"] {
+        transform: skewX(-90deg); 
+    }
+
+
+    .box1 #about-me {
+        margin: 47% 4% auto;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .yearsOf-exp,
+    .active-proj{
+        height: 10.5%;
+        width: 35%;
+        margin: 77% 5%;
+        font-size: 1.7rem;
+        transform: scale(.9);
+
+    }
+    
+    /* project gallery
+    =========================== */
+
+    .project-gallery {
+        position: absolute;
+        margin-top: 530px;
+        width: 100%;
+        height: 500px;
+        background: #161616;
+        display: flex;
+        flex-wrap:  wrap;
+
+    }
+    .proj-one {
+        position: relative;
+        width: 49% !important;
+        height: 32% !important;
+        background: black;
+        margin: 2px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: crosshair;
+
+
+    }
+    .project-gallery .proj-one .content h2 {
+        margin-top: 35px;
+        font-size: 1.2rem;
+    }
+    .project-gallery .proj-one .content p {
+        padding-top: 10px;
+        font-size: .8rem;
+        margin-top: 55px;
+    }
+
+    .process1 {
+    margin-top: 200px!important;
+    border-bottom: 2.5px solid #fff;
+    
+    }
+    .process1:nth-child(2) {
+        margin-top: 45%;
+        margin-top: 300px!important;
+        
+
+    }
+    .process1:nth-child(3) {
+        margin-top: 70%;
+        margin-top: 400px!important;
+    }
+
+    .process1:nth-child(4) {
+        margin-top: 95%;
+        margin-top: 500px!important;
+    }
+    .process1:nth-child(5) {
+        margin-top: 120%;
+        margin-top: 600px!important;
+    }
+    .process1 h2 {
+        position: absolute;
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 17%;
+        height: 100%;
+        font-size: 3.5rem;
+        text-align: center;
+        font-family: agency fb;
+        -webkit-text-stroke: 2.5px #fff;
+        -webkit-text-fill-color: transparent;
+    }
+    .process1 h3 {
+        position: absolute;
+        width: 83%;
+        right: 0;
+        height: 100%;
+        padding-top: 5%;
+        font-family: agency fb;
+        font-size: 1.46rem;
+        color: #fff;
+
+    }
+
+
+} 
+@media only screen and (min-height: 736px) {
+        .project-gallery {
+        margin-top: 515px;
+        height: 410px;
+    }
+        .proj-one {
+        margin: auto;
+        height: 43%;
+    }
+}
+@media only screen and (min-height: 812px) {
+        .project-gallery {
+        margin-top: 478px;
+        height: 470px;
+    }
+        .proj-one {
+        height: 32%;
+    }
+}
+@media only screen and (min-height: 1280px) {
+        .project-gallery {
+        margin-top: 890px;
+        height: 870px;
+    }
+        .proj-one {
+        height: 49%;
+    }
+}
+
+
+
+
+/*== Pixel 2 Xl
+=================================*/
+
+@media only screen and (max-width: 411px) {
+    .text {
+        font-size: 18px; 
+        margin: 35px 0;
+        text-align: center;
+    }
+    .test {
+        width: 60%;
+        background: rgb(255, 1, 1);
+    }
+    .view-port h3 {
+    font-size: 19px;
+    letter-spacing: 1px;
+    }
+
+} 
+
+/*== Iphone 6/7/8 375x 667
+=================================*/
+
+@media only screen and (max-width: 375px) {
+    .text {
+        font-size: 18px; 
+        margin: 35px 0;
+        text-align: center;
+    }
+    .test {
+        width: 60%;
+        background: rgb(255, 1, 1);
+    }
+    .view-port h3 {
+    font-size: 17px;
+    letter-spacing: 1px;
+    }
+     .view-port .greetings {
+    width: 55%;
+    }
+     .duities {
+    width: 37%;
+    }
+
+}           
+
+
+/*== Galaxy Note 3/ S3 Moto G4 360 x 640 iphone 4 360 x 480
+=================================*/
+
+@media only screen and (max-width: 360px) {
+    .text {
+       font-size: 17px; 
+       margin: 20px 0;
+       text-align: center;
+    }
+    .test {
+       width: 65%;
+       background: rgb(255, 1, 1);
+    }
+    .view-port h3 {
+    font-size: 16px;
+    }
+     .view-port .greetings {
+    width: 58%;
+    }
+    .duities {
+    width: 39%;
+    height: 44%;
+    }
+     .duities ul li {
+    font-size: 28px;
+    }
+
+}
+
+/*== Iphone 5/SE 320 X 568  
+=================================*/
+
+@media only screen and (max-width: 320px) {
+    .text {
+       font-size: 13px; 
+       margin: 25px 0;
+
+       text-align: center;
+    }
+    .test {
+       width: 65%;
+       background: rgb(255, 1, 1);
+    }
+    .view-port .greetings {
+     width: 60%;
+    }
+     .view-port .greetings h2 {
+     font-size: 33px;
+    }
+    .view-port .greetings h3 {
+    top: -34px;
+    left: 88px;
+    font-size: 24px;
+    } 
+    
+
+}
+
+/*== Galaxy Fold 280x 653
+=================================*/
+
+/*==Media query 2nd 100vh +
+=================================*/
+

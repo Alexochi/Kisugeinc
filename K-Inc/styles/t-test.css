@@ -1,0 +1,472 @@
+*::selection{
+    display: none;
+} 
+
+.m-background {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    background: #161616;
+    justify-content: center;
+    z-index: -1;
+    overflow: hidden;
+    
+}
+.main-wrapper {
+    position: relative;
+    width: 100vw;
+    height: inherit;
+}
+.home-nav {
+    position: relative;
+    width: 50%;
+    height: 2.5%;
+    margin: 5% 5% auto;
+    
+}
+.home-nav a h3 {
+    position: relative;
+    left: 0;
+    font-family: Agency fb;
+    color: #fff;
+    cursor: pointer;
+
+}
+.home-nav h3:hover {
+    color: blue;
+}
+.home-nav #identity{
+    position: relative;
+    right: 0;
+    margin: -21px 0% auto;
+    font-family: Agency Fb;
+    margin-left: 40px; 
+    padding-left: 15px;
+    color: #fff;
+    border-left: 2px solid #fff;
+}
+.skill-set-box {
+    position: relative;
+    margin: 5% 5% auto;
+    left: 0;
+    width: 90%;
+    height: 90%;
+}
+.skill-set-box h2 {
+    font-family: impact;
+    font-size: 2.5rem;
+    top: 0;
+    margin: 0% 0% auto;
+    color: transparent;
+    -webkit-text-stroke: 1px blue;
+}
+.skill-set-box ul {
+    position: relative;
+    margin: 5% 0%;
+    width: 95%;
+}
+.skill-set-box ul li {
+    list-style: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.skill-set-box ul li h3 {
+    font-family: Agency Fb;
+    font-size: 1.5rem;
+    padding: 15px 0px;
+    color: #fff;
+    list-style: none;
+    transition: all .5s;
+    height: 60px;
+    margin: 2% 0;
+    padding: 0;
+}
+.skill-set-box ul .hover:hover::before  {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 90px;
+    width: 250px;
+    height: 250px;
+    -webkit-transition: 1s !important;
+    background-size: cover;
+    animation: anim 3.2s ease-in-out;
+    cursor: pointer;
+    z-index: -2;
+    box-shadow: 1px 1px 10px 1px aqua;
+}
+.card1.hover:hover::before {
+    background: url(../images/js.jpg) 50% 50%;
+}
+.card2.hover:hover::before {
+    background: url(../images/pyth.jpg) 50% 50%;
+}
+.card3.hover:hover::before {
+    background: url(../images/jq.jpg) 50% 50%;
+}
+.card4.hover:hover::before {
+    background: url(../images/htcs.jpg) 50% 50%;
+}
+.card5.hover:hover::before {
+    background: url(../images/adobbe.jpg) 50% 50%;
+}
+@keyframes anim {
+    0% {
+        opacity: 0;
+        left: 70px;
+        left: 20%;
+    }
+    20% {
+        opacity: 1;
+        left: 100px;
+        left: 40%;
+    }
+    100% {
+        opacity: 1;
+        left: 100px;
+        left: 40%;
+    }
+}
+.skill-set-box ul .li-1::after,
+.skill-set-box ul .li-2::after,
+.skill-set-box ul .li-3::after,
+.skill-set-box ul .li-4::after,
+.skill-set-box ul #adb::after {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 100%;
+    left: 0;
+    background: #fff;
+    margin-top: -15px;
+    transition: all 500s;
+    animation: rev-tech 2.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+.skill-set-box ul .li-1::after{
+    animation-delay: 4.0s;
+}
+.skill-set-box ul .li-2::after {
+    animation-delay: 4.5s;
+}
+.skill-set-box ul .li-3::after {
+    animation-delay: 5.0s;
+}
+.skill-set-box ul .li-4::after {
+    animation-delay: 5.5s;
+}
+.skill-set-box ul #adb::after{
+    animation-delay: 6s;
+}
+@keyframes rev-tech {
+    0% {
+        left: 0;
+        width: 0%;
+    }
+    50% {
+        left: 0;
+        width: 100%;
+    }
+    100% {
+        left: 100%;
+        width: 0%;
+        
+    }
+}
+
+.skill-set-box ul .li-1,
+.skill-set-box ul .li-2,
+.skill-set-box ul .li-3,
+.skill-set-box ul .li-4,
+.skill-set-box ul #adb {
+    transition: all 500s;
+    animation-delay: 7.5s;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-280px);
+    animation: rev-text 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    
+}
+.skill-set-box ul .li-1 {
+    animation-delay: 4.5s;
+}
+.skill-set-box ul .li-2 {
+    animation-delay: 5.0s;
+}
+.skill-set-box ul .li-3 {
+    animation-delay: 5.5s;
+}
+.skill-set-box ul .li-4 {
+    animation-delay: 6.0s;
+}
+.skill-set-box ul #adb  {
+    animation-delay: 6.5s;
+}
+@keyframes rev-text {
+    0% {
+    opacity: 0;
+    visibility: visible;
+    }
+    100% {
+    transform: translateX(0px);
+    opacity: 1;
+    visibility: visible;
+    }
+}
+.circular-box {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 0%;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    
+}
+.circular-box .grey-circ {
+    position: relative;
+    top: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.dot {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.thin-blue-circ {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid blue;
+    border-style: dashed;
+    border-radius: 50%;
+    animation: rotate1 9s linear infinite;
+      
+}
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+.inner-most-circ {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border: 9px solid blue;
+    border-style: dashed;
+    border-radius: 50%;
+    top: 30px;
+    animation: rotate1 5s linear infinite;
+    
+}
+.grey-out-circle {
+    position: absolute;
+    top: -17.5px;
+    width: 285px;
+    height: 285px;
+    border: 1.5px solid grey;
+    border-style: dashed;
+    border-radius: 50%;
+    animation: rotate 35s linear infinite;
+    
+}
+
+.accordian-box {
+    position: absolute;
+    width: 60%;
+    height: 0;
+    top: 0;
+    margin-top: 455px;
+    margin-left: 120px;
+    left: 0;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 650ms cubic-bezier(0.215, 0.610, 0.355, 1);
+    
+}
+.accordian-box ul {
+    position: relative;
+    height: 80%;
+    margin: 5% auto;
+    overflow: hidden;
+    
+}
+.accordian-box ul li {
+    margin: 10px 0;
+    margin-left: 10px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    font-weight: 100;
+    text-align: left;
+    color: red;
+    transition: .5s ease;
+    
+}
+.accordian-box ul li:hover {
+    color: aqua;
+    transform: scale3d(1,2,1);
+}
+
+.accordian-box.open {
+    -webkit-transition: all .5s ease;
+    transition: all 650ms cubic-bezier(0.215, 0.610, 0.355, 1);
+    animation: slide-up .5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+    
+}
+@keyframes slide-up {
+    0% {
+        top: 0;
+        opacity: 0;
+    }
+    100% {
+        height: 120px;
+        opacity: 1;
+    }
+}
+
+.ac-button {
+    position: absolute;
+    width: 2.5rem;
+    height: 2.25rem;
+    top: 0;
+    margin-top: 420px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid red;
+    animation: visual .5s forwards;
+    animation-delay: 8s;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 650ms cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+@keyframes visual {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+     100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+.ac-button #c-arrow {
+    transform: scale(0.8);
+    -webkit-transition: all .5s ease;
+    
+}
+.ac-button #c-arrow.open {
+    transition: all 650ms cubic-bezier(0.215, 0.610, 0.355, 1);
+    transform: rotate(180deg);
+    
+}
+
+/* ==== media queries ====
+====================================*/
+
+@media only screen and (min-width: 1280px) {
+
+    
+    
+    .skill-set-box h2 {
+        font-size: 4rem;
+        margin-top: -40px;
+    }
+    .skill-set-box ul li h3 {
+        font-size: 2.3rem;
+        height: 60px;
+        padding: 0;
+    }
+    .skill-set-box ul {
+        margin: 0% 5%;
+        width: 40%;
+    }
+    .circular-box {
+        width: 400px;
+        height: 400px;
+        top: 10px;
+        right: 10%;
+    }
+    .circular-box .grey-circ {
+        top: 70px;
+        width: 310px;
+        height: 310px;
+    }
+    .dot {
+        width: 30px;
+        height: 30px;
+     }
+    .thin-blue-circ {
+        margin-top: 25px; 
+    }
+    .inner-most-circ {
+        width: 320px;
+        height: 320px;
+        top: 65px;
+    }
+    .grey-out-circle {
+        width: 485px;
+        height: 485px;
+    }
+    .skill-set-box ul .hover:hover::before  {
+        top: 20px;
+        width: 300px;
+        height: 300px;
+    }
+    .ac-button {
+        width: 2.5rem;
+        height: 2.25rem;
+        margin-top: 410px;
+        margin-left: 300px;
+    }
+    .accordian-box {
+        width: 35%;
+        margin-top: 445px;
+        margin-left: 300px;
+    }
+
+
+}
+
+#video-bg {
+    position: fixed;
+    z-index: -10;
+    width: 100%;
+    height: 100vh;
+    object-fit: unset;
+    display: none;
+
+}
+
+
+
+
+

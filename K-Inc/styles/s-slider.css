@@ -1,0 +1,207 @@
+* 
+{
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.slider {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slide_viewer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    background: url(../images/tsbg1.jpg) 50% 50%;
+    background-size: cover;
+    
+}
+.slide_group {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.slide:nth-child(1),
+.slide:nth-child(2),
+.slide:nth-child(3),
+.slide:nth-child(4),
+.slide:nth-child(5),
+.slide:nth-child(6),
+.slide:nth-child(7){
+    width: 100%;
+    height: 100%;
+}
+.slide:nth-child(1) h3,
+.slide:nth-child(2) h3,
+.slide:nth-child(3) h3,
+.slide:nth-child(4) h3,
+.slide:nth-child(5) h3,
+.slide:nth-child(6) h3,
+.slide:nth-child(7) h3 {
+    text-align: center;
+    margin-top: 7%;
+    font-family: Lucida Calligraphy !important;;
+    color: #FB21AB;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.slide:nth-child(2) h3 {
+    font-family: Verdana !important;
+    color: aqua;
+    font-weight: 700;
+    
+}
+.slide:nth-child(3) h3 {
+    font-family: monospace !important;
+    font-size: 1.7rem; 
+    color: #fff;
+    font-weight: 700;
+    
+    
+}
+.slide:nth-child(4) h3 {
+    color: #fff;
+}
+.slide:nth-child(5) h3 {
+    color: #fff;
+    font-weight: 700;
+    font-family: Segoe UI !important;
+}
+.slide:nth-child(6) h3 {
+    color: #fff;
+    font-family: impact !important;
+    letter-spacing: 2px;
+}
+.slide:nth-child(7) h3 {
+    color: yellow;;
+    font-family: impact !important;
+    letter-spacing: 2px;
+}
+.slide:nth-child(1) #adobexd,
+.slide:nth-child(2) #adobe-ps,
+.slide:nth-child(3) #sass,
+.slide:nth-child(4) #jquery,
+.slide:nth-child(5) #python,
+.slide:nth-child(6) #html,
+.slide:nth-child(7) #javascript {
+    margin-top: 8%;
+    margin-left: 44%;
+}
+
+.slide:nth-child(1) p,
+.slide:nth-child(2) p,
+.slide:nth-child(3) p,
+.slide:nth-child(4) p,
+.slide:nth-child(5) p,
+.slide:nth-child(6) p,
+.slide:nth-child(7) p {
+    text-align: center;
+    margin: 6%;
+    margin-top: 1.5rem;
+    font-family: Segoe Print;
+    font-size: .8rem;
+    color: #fff;
+}
+.slide:nth-child(1) p {
+    margin-top: 1.5rem;
+}
+.slide h2 {
+    position: absolute;
+    width: 100%;
+    height: 28%;
+    margin-top: -17%;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    font-family: Impact !important;
+    text-align: center;
+    text-shadow: 0px 5px 20px aqua;
+    -webkit-text-stroke: 1px aqua;
+    -webkit-text-fill-color: transparent !important;;
+}
+
+.slide .adobe-xd {
+    margin-top: 30px;
+    text-shadow: 0px 5px 20px aqua;
+}
+
+/* .slide:nth-child(2){
+    background: yellow;
+}
+.slide:nth-child(3){
+    background: grey;
+}
+.slide:nth-child(4){
+    background: purple;
+}
+.slide:nth-child(5){
+    background: orange;
+} */
+.slide_buttons {
+    position: absolute;
+    bottom: 2%;    
+    width: 55%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+/* .slide_buttons a {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: red;
+    margin: 2px;
+    transform: translateY(50%);
+    cursor: pointer;
+} */
+
+a.slide_btn {
+  color: #000;
+  font-size: 44px;
+  margin: 0 0.175em;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.slide_btn.active, .slide_btn:hover {
+  color: #428CC6;
+  cursor: pointer;
+}
+
+.directional_nav {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 32px;
+    top: 45%;
+}
+.directional_nav .previous_btn {
+    position: absolute;
+    left: 3%;
+    cursor: pointer;
+}
+.directional_nav .next_btn {
+    position: absolute;
+    right: 3%;
+    cursor: pointer;
+}
+
+/* slide content boxes 
+============================*/
+
+
+

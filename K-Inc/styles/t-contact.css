@@ -1,0 +1,640 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden; 
+    display: flex;
+    justify-content: center;
+    background: #161616;
+    background: url(../images/bg1.png) no-repeat center fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+    animation: 3s scroll-reveal2 cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    animation-delay: 4s;
+    
+}
+@keyframes scroll-reveal2 {
+    0% {
+        overflow-y: -moz-hidden-unscrollable;
+        overflow-y: hidden;
+    }
+    100% {
+        overflow-y: scroll;
+        
+    }
+}
+.m-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.box-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    z-index: 2;
+}
+.contact-box-1 {
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+    
+}
+.contact-box-2 {
+    height: 45vh;
+    width: 100%;
+    background: #030253;
+    background: aqua;
+/*     background: transparent; */
+    
+}
+.contact-box-3 {
+    height: 55vh;
+    width: 100%;
+    background: transparent;
+}
+
+.home-nav {
+    position: relative;
+    width: 50%;
+    height: 2.5%;
+    margin: 3% 5% auto;
+    
+}
+.home-nav h3 {
+    position: relative;
+    left: 0;
+    font-family: Agency fb;
+    font-size: 1.2rem;
+    color: #000;
+    cursor: pointer;
+
+}
+.home-nav h3:hover {
+    color: blue;
+}
+.home-nav #identity{
+    position: relative;
+    right: 0;
+    margin: -21px 0% auto;
+    font-family: Agency Fb;
+/*     font-size: 0.6rem; */
+    margin-left: 40px; 
+    padding-left: 6px;
+    color: #000;
+    border-left: 2px solid #000;
+}
+
+.contact-box-1 h1 {
+    position: relative;
+    font-family: Agency Fb;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 10% 5% auto;
+}
+
+.contact-box-1 h2 {
+    position: relative;
+    margin: 5% 5% auto;
+    font-family: Agency Fb;  
+}
+.contact-box-1 p {
+    position: relative;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5% 5% auto;
+}
+
+
+.name-box,
+.email-box,
+.phone-box {
+    position: relative;
+    width: 300px;
+    height: 35px;
+    background: #0F1016;
+    border-radius: 8px;
+    left: 50px;
+    margin: 5% 0% auto;
+
+}
+
+input[type="text"]:focus,
+input[type="numbers"]:focus,
+textarea[name="message"]:focus{
+    animation: jello-horizontal 0.9s both;
+    
+}
+/* .name-box:hover,
+.email-box:hover,
+.phone-box:hover,
+.Message-box:hover {
+    animation: jello-horizontal 0.9s both;
+} */
+
+
+.name-box:hover::before,
+.email-box:hover::before,
+.phone-box:hover::before,
+.Message-box:hover::before{
+    position: absolute;
+    content: '';
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px aqua;
+    width: 100%;
+    height: inherit;    
+}
+@keyframes jello-horizontal {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+.email-box #Icon_material-email,
+.phone-box #Icon_awesome-phone {
+    position: absolute;
+    fill: aqua;
+
+}
+#name,
+#email,
+#phone-number{
+    position: relative;
+    width: 90%;
+    height: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #15f8f0;
+    border: none;
+    outline: none;
+    background: #0F1016;
+    border-radius: 8px;
+    left: 30px;
+}
+
+.guesticon,
+.emailicon,
+.phoneicon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 10%;
+   
+}
+.guesticon #guest-icon,
+.emailicon #email-icon,
+.phoneicon #phone-icon2 {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    transform: scale(.8)
+}
+.Message-box {
+    position: relative;
+    width: 300px;
+    height: 85px;
+    background: #0F1016;
+    border-radius: 10px;
+    left: 50px;
+    margin: 5% 0% auto;
+}
+#message-box {
+    position: relative;
+    width: 260px;
+    height: 100%;
+    padding: 10px 0;
+    font-family: segoe ui;
+    font-size: 14px;
+    color: #15f8f0;
+    border: none;
+    outline: none;
+    background: #0F1016;
+    border-radius: 8px;
+    left: 30px;
+}
+
+.check-box {
+    position: relative;
+    width: inherit;
+    height: 20%;
+    margin: 0% 0% auto;
+}
+.check-box input {
+    position: relative;
+    margin: 9% 7% auto;
+    
+}
+.check-box p {
+    position: relative;
+    margin: -10% 10% auto;
+    padding: 15px;
+}
+.submit-box {
+    position: relative;
+    margin-top: -5%;
+    height: 30%;
+    background: #fff;
+}
+.submit-box p {
+    position: relative;
+    margin: 5% 13% auto;
+    font-size: 1.1rem;
+    font-family: segoe ui;
+    opacity: 50%;
+}
+.submit-box #submiit-red-arrow {
+    position: relative;
+    margin: 8% 5% auto;
+}
+.submit-box input {
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    margin: 9% 15% auto;
+    border-radius: 5px;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    border: 1px solid #000;
+    background: transparent;
+    cursor: pointer;
+ 
+} 
+.submit-box input:hover{
+    transform: scale(1.1);
+    transition: .5s ease;
+    border: none;
+    color: blue;
+    background: linear-gradient(90deg,aqua,#EE00FF);
+}
+
+.my-contacts {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    margin: 41px 0px auto;
+/*     background: aqua; */
+/*     display: none; */
+}
+.my-contacts .contact-wrapper1,
+.my-contacts .contact-wrapper2{
+    position: absolute;
+    width: 100%;
+    margin: 5% 0%;
+}
+.my-contacts .contact-wrapper1  {
+    margin-top: 90px;
+}
+.my-contacts .contact-wrapper2 {
+    margin-top: 150px;
+}
+.my-contacts h2 {
+    position: absolute;
+    margin: 12% 5% auto;
+    font-family: Agency Fb;
+}
+.my-contacts #phone-icon,
+.my-contacts #email-icon {
+    
+    margin: 5% 5% auto;
+    margin-top: 4%;
+    transform: scale(1.2);
+}
+.my-contacts h3,
+.my-contacts h4 {
+    position: relative;
+    margin: -5% 13% auto;
+    font-family: Monospace;
+    font-weight: 500;
+    font-size: 1.15rem;
+    color: black;
+}
+
+.follow-socials {
+    position: relative;
+    width: inherit;
+    height: 60%;
+}
+.follow-socials .up-arrow {
+    position: absolute;
+    width: 3.2rem;
+    height: 3.2rem;
+    background: #000;
+    margin-left: 45%; 
+    margin-top: -2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+    cursor: pointer;
+}
+.follow-socials .up-arrow svg {
+    transform: scale(1.5);
+    
+}
+.follow-socials .up-arrow #Icon_awesome-arrow-circle-up {
+    fill: #fff;
+}
+@keyframes pulse {
+    0% {
+       box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99); 
+    }
+    70% {
+       box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0); 
+    }
+    0% {
+       box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.9); 
+    }
+}
+
+.follow-socials .linkedIn-box,
+.follow-socials .twitter-box,
+.follow-socials .instagram-box,
+.follow-socials .telegram-box {
+    position: absolute;
+    width: inherit;
+    height: 15%;
+    margin: 5% 0% auto;
+}
+.follow-socials .twitter-box{
+    margin: 20% 0% auto;
+    
+}
+.follow-socials .instagram-box{
+    margin: 35% 0% auto;
+}
+.follow-socials .telegram-box{
+    margin: 50% 0% auto;
+}
+.follow-socials .linkedIn-box #linkedIn,
+.follow-socials .twitter-box #twitter,
+.follow-socials .instagram-box #instagram,
+.follow-socials .telegram-box #telegram {
+    position: absolute;
+    margin: 2% 8% auto;
+    right: 0;
+    cursor: pointer;
+}
+
+.follow-socials .linkedIn-box #Icon_awesome-linkedin,
+.follow-socials .twitter-box #Icon_awesome-twitter,
+.follow-socials .instagram-box #Icon_awesome-instagram,
+.follow-socials .telegram-box #Icon_awesome-telegram-plane{
+    fill:aqua;
+}
+.follow-socials p {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    text-align: right;
+    font-family: Monotype Corsiva;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    color: #fff;
+    cursor: pointer;
+    right: 95px;
+    
+}
+.follow-socials p:hover {
+    color: blue;
+    transform: scale(1.2);
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.footer {
+    position: relative;
+    width: inherit;
+    height: 40%;
+}
+.footer h2 {
+    position: relative;
+    font-size: 1.9rem;
+    width: 300px;
+    color: #fff;
+    margin: 0% 5% auto;
+}
+.footer a {
+    text-decoration: none;
+    font-family: Agency Fb;
+}
+.footer h3 {
+    position: relative;
+    margin: 20px 20px auto;
+    font-family: Agency Fb;
+    font-size: 1.5rem;
+    color: #fff;
+    
+}
+#copy-r {
+    position: relative;
+    margin: 50px 20px auto;
+}
+.footer h4 {
+    position: relative;
+    margin: -30px 70px auto;
+    font-family: Agency FB;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #fff;
+    opacity: 50%;
+}
+.footer #d-slash {
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -8%;
+}
+
+/* ==== media query for my laptop screen 
+===================================== */
+@media only screen and (min-width: 1366px) {
+    .contact-box-1 {
+        height: 120vh;
+        width: 100%;
+        background: #fff;
+
+    }
+    .contact-box-2 {
+        height: 45vh !important;
+        width: 100%;
+        background: #030253;
+    /*     background: transparent; */
+
+    }
+    .contact-box-3 {
+        margin: 10% 5% auto;
+        height: 40vh !important;
+        width: 100%;
+        background: transparent;
+    }
+    .contact-box-1 h1 {
+        font-size: 1.8rem;
+        margin: 4.5% 5% auto;
+    }
+    .contact-box-1 h2 {
+        margin: 3% 5% auto;
+    }
+    .contact-box-1 p {
+        font-size: 1rem;
+        margin: 3% 5% auto;
+    }
+
+    .name-box,
+    .email-box,
+    .phone-box,
+    .Message-box {
+        left: 100px;
+        margin: 1.5% 0% auto;
+        
+    }
+    .check-box {
+        margin: 1% 5% auto;
+        height: 100px !important;
+    }
+    .check-box input {
+        margin: 1% 7% auto;
+    
+    }
+    .check-box p {
+        margin: -3% 10% auto;
+    }
+    .submit-box p {
+        margin: 1% 15% auto;
+    }
+    .submit-box #submiit-red-arrow {
+        margin: 5% 10% auto;
+    }
+    .submit-box input {
+        width: 20%;
+        margin: 5% 5% auto;
+    } 
+    .contact-box-2 {
+        height: 50vh !important;
+        background: aqua;
+}
+/*     .my-contacts {
+        height: 150px !important;
+    } */
+    .my-contacts h2 {
+        margin: 1% 5% auto !important;
+    }
+    .my-contacts .contact-wrapper1,
+    .my-contacts .contact-wrapper2{
+        margin: 5% 0% !important;
+        height: 60px;
+    }
+    .my-contacts .contact-wrapper1 h3,
+    .my-contacts .contact-wrapper2 h4{
+        margin: -2% 13%;
+    }
+    .my-contacts .contact-wrapper1 {
+        margin-top: 130px !important;
+    }
+    .my-contacts #phone-icon,
+    .my-contacts #email-icon {
+        margin: 2% 5% auto !important;
+        transform: scale(1.2);
+    }
+    .follow-socials {
+        width: 100% !important;
+        background: red !important;
+        height: 0px !important;
+    }
+    .follow-socials .up-arrow {
+        margin-top: -10.5rem !important;
+    }
+    .follow-socials .linkedIn-box,
+    .follow-socials .twitter-box,
+    .follow-socials .instagram-box,
+    .follow-socials .telegram-box {        
+        width: inherit;
+        height: 50px !important;
+    }
+    .follow-socials .linkedIn-box{
+        margin: -8% 0% auto !important;
+    }
+    .follow-socials .twitter-box{
+        margin: -4% 0% auto !important;
+    }
+    .follow-socials .instagram-box {
+        margin: 0% 0% auto !important;
+    }
+    .follow-socials .telegram-box{
+        margin: 4% 0% auto !important;
+    }
+    .follow-socials .linkedIn-box #linkedIn,
+    .follow-socials .twitter-box #twitter,
+    .follow-socials .instagram-box #instagram,
+    .follow-socials .telegram-box #telegram {
+        margin: 1% 8% auto !important;
+    }
+    .follow-socials p {
+        right: 100px !important;
+        width: 25%;
+        text-align: center !important;
+    }
+}
+    .footer {
+        top: 0px !important;
+        height: 100% !important;
+        width: 70%;
+        left: 0;
+    }
+
+    .footer a h2 {
+        width: 200px;
+        margin-left: 30px;
+        top: 80px;
+        z-index: -5 !important;
+    }
+    .footer h3 {
+        margin: 90px 30px auto !important;
+        top: 30px;
+    }
+    #copy-r {
+        margin: 50px 30px auto !important;
+    }
+    .footer h4 {
+        margin: -30px 70px auto !important;
+    }
+    .footer #d-slash {
+        position: relative !important;
+        margin-left: 80% !important;
+        margin-bottom: 1% !important;
+    }
+
+/* ====== end of media query ==========  */
+
+
+
